@@ -4,67 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>byotiCSS</title>
-    <link rel="stylesheet" href="public/index.css">
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <!-- navbar -->
-    <nav>
-        <div><img src="" alt="">byoti</div>
-        <ul class="list--no-bullet nav__items">
-            <li class="list__item--inline">
-                <a class="nav__link nav__link--active" href="/">Home</a>
-            </li>
-            <li class="list__item--inline">
-                <a class="nav__link" href="public/docs.html">Docs</a>
-            </li>
-            <li class="list__item--inline">
-                <a class="nav__link" href="https://github.com/SlaYpoint/byotiCSS">Github</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- end of navbar -->
-
-    <div class="">
-        <p>
+    <header class="header">
+        <a href="./index.html" class="brand">
+            <span class="brand-name">
+                <img src="" alt="byoti" class="brand-logo"/>
+                <span class="brand-title">byotiCSS</span>
+            </span>
+        </a>
+        <a href="#">
+            <span>Documentation</span>
+        </a>
+    </header>
+    <main>
+        <img src="" alt="byotiCSS" class="main-logo"/>
+        <p class="main__content">
             Don't like CSS? Is it bothering you while building your apps?<br />
             Well, then your'e at the right place ! Start working on your next project
             <span class=""> without worrying about writing CSS.</span><br/>
         </p>
-
-        <section class="">
-            <div class="">
-                <img class="" src="assets/" alt="">
-                <span class=""></span>
-            </div>
-            <div class="">
-                <img class="" src="assets/" alt="">
-                <span class=""></span>
-            </div>
-            <div class="">
-                <img class="" src="assets/" alt="">
-                <span class=""></span>
-            </div>
-        </section>
-
-        <a class="" href="public/docs.html">Get Started</a>
-    </div>
-
-    <!-- footer -->
-    <footer>
-        <div class="">to know more about the project hit me up on</div>
-        <ul class="">
-            <li class="">
-                <a class="" href="/"><i class="">LinkedIn</i></a>
-            </li>
-            <li class="">
-                <a class="" href="/"><i class="">Twitter</i></a>
-            </li>
-            <li class="">
-                <a class="" href="/"><i class="">Gmail</i></a>
-            </li>
-        </ul>
-    </footer>
-    <!-- end  of footer -->
+        <div class="btn__container">
+            <a href="./pages/docs.html">
+                <button class="btn btn-primary">
+                    Get Started
+                </button>
+            </a>
+            <a href="#">
+                <button class="btn btn-secondary">
+                    GitHub
+                </button>
+            </a>
+        </div>
+    </main>
 </body>
 </html>
