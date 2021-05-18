@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary : #BE185D;
+    --grey-light : #E5E7EB;
+}
+
+*, *::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+.header{
+    background: #fff;
+    /* position: fixed; */
+    width: 100%;
+    padding: 1rem 4rem 0.5rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-name{
+    display: inline-flex;
+    max-width: max-content;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.brand-logo{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+/* Navbar */
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: 7rem;
+    margin-left: 4rem;
+    overflow-y: auto;
+}
+
+.nav__heading{
+    padding: 0.2 0.5rem;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.nav__heading-main{
+    color: #626364;
+    font-size: 1.1rem;
+}
+
+.nav__heading-sub{
+    color: var(--primary);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.nav__section{
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav__links{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.nav__links >a{
+    text-decoration: none;
+    display: block;
+    padding: 0.2rem 0.5rem;
+}
+
+.nav__links:hover > a{
+    background: #ECC2D3;
+    color: var(--primary);
+}
+
+/* Main content */
+.comp__section{
+    max-width: 50%;
+    margin-top: 3rem;
+    margin-left: 25rem;
+}
+
+.comp__header{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #626364
+}
+
+.comp__container-desc{
+    align-items: center;
+}
+
+.comp-desc{
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    line-height: 1.5rem;
+}
+
+.comp__container-code{
+    padding: 0;
+}
+
+.comp__container-code > code{
+    border-radius: 1rem;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+
+
+
