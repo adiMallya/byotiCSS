@@ -24,11 +24,10 @@ a{
     background: #fff;
     /* position: fixed; */
     width: 100%;
-    padding: 1rem 3rem 0.5rem 3rem;
+    padding: 1rem 4rem 0.5rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.1rem;
 }
 
 .brand-name{
@@ -42,6 +41,14 @@ a{
 .brand-logo{
     width: 2rem;
     margin-right: 0.5rem;
+}
+
+.docs-link{
+    margin-left: 1.5rem;
+}
+
+.docs-link:hover{
+    text-decoration: underline;
 }
 
 /* Main */
@@ -92,10 +99,6 @@ main{
     border : 2px solid var(--primary);
 }
 
-.btn-secondary:hover{
-    background: var(--primary);
-    color: #fff;
-}
 /* .list--no-bullet{
     list-style: none;
 }
