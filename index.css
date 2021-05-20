@@ -18,10 +18,14 @@ a{
     background: #fff;
     /* position: fixed; */
     width: 100%;
-    padding: 1rem 4rem 0.5rem 4rem;
+    padding: 1rem 0rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brand{
+    margin-left: 4rem;
 }
 
 .brand-name{
@@ -37,6 +41,10 @@ a{
     margin-right: 0.5rem;
 }
 
+.docs{
+    margin-right: 4rem;
+}
+
 .docs-link{
     margin-left: 1.5rem;
 }
@@ -49,13 +57,12 @@ a{
 main{
     max-width: 30rem;
     margin: 1.5rem auto;
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 2rem 0;   
 }
 
 .main-logo{
     width: 8rem;
+    display: block;
     margin: 0 auto;
 }
 
@@ -88,7 +95,11 @@ main{
     color: #fff;
 }
 
-/* .btn-secondary{
-    background: transparent;
-    border : 2px solid #BE185D;
-} */
+@media (max-width : 700px){
+    .brand{
+        margin-left: 1rem;
+    }
+    .docs{
+        margin-right: 1rem;
+    }
+}
