@@ -1,0 +1,24 @@
+.alert{
+    padding: 1rem;
+    margin: 1rem 0;
+    max-width: max-content;
+    border-radius: 0.5rem;
+}
+
+.alert-success{
+    background: #d1e7dd;
+}
+
+.alert-danger{
+    background: #f8d7da;
+}
+
+.alert-info{
+    background: #cff4fc;
+}
+
+.alert-warning{
+    background: #fff3cd;
+}
+
+
