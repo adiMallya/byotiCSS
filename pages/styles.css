@@ -25,6 +25,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* z-index: 1; */
 }
 
 .brand{
@@ -106,7 +109,7 @@ nav{
 /* Main content */
 .comp__section{
     max-width: 50%;
-    margin-top: 2.5rem;
+    margin-top: 7rem;
     margin-left: 25rem;
 }
 
@@ -166,7 +169,7 @@ nav{
     }
     .comp__section{
         max-width: 100%;
-        margin-top: 3rem;
+        margin-top: 7rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
