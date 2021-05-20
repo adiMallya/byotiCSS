@@ -20,12 +20,15 @@ a{
 /* Header */
 .header{
     background: #fff;
-    /* position: fixed; */
     width: 100%;
-    padding: 1rem 4rem 0.5rem 4rem;
+    padding: 1rem 0rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brand{
+    margin-left: 4rem;
 }
 
 .brand-name{
@@ -68,6 +71,16 @@ nav{
     margin-left: 0.5rem;
 }
 
+.nav__heading-sub >a{
+    display: block;
+    padding: 0.2rem 0.5rem;
+}
+
+.nav__heading-sub:hover >a{
+    background: #ECC2D3;
+    color: var(--primary);
+}
+
 .nav__section{
     margin-top: 0.5rem;
     padding-left: 0.5rem;
@@ -93,15 +106,18 @@ nav{
 /* Main content */
 .comp__section{
     max-width: 50%;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     margin-left: 25rem;
 }
 
 .comp__header{
     margin-bottom: 1rem;
-    font-size: 1.5rem;
     font-weight: 500;
     color: #626364
+}
+
+.com__header-sub{
+    font-size: 1.4rem;
 }
 
 .comp__container-desc{
@@ -126,4 +142,34 @@ nav{
 
 
 
+/* Media queries */
+@media (max-width : 1200px){
+
+    .brand{
+        margin-left: 1rem;
+    }
+
+    nav{
+        margin-left: 1rem;
+    }
+    .comp__section{
+        max-width: 70%;
+        margin-left: 15rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width : 900px){
+   
+    nav{
+        display: none;
+    }
+    .comp__section{
+        max-width: 100%;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
 
