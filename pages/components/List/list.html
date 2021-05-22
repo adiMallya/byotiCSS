@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert</title>
+    <title>List</title>
     <link rel="stylesheet" href="/pages/styles.css">
-    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="list.css">
 </head>
 <body>
     <header class="header">
@@ -68,7 +68,86 @@
             </code>
         </pre>
 
+        <h2 class="comp__header comp__header-sub">
+            Simple List
+        </h2>
+        <div class="comp__container-desc flex">
+            <ul class="list">
+                <div class="list-heading">
+                    Categories
+                </div>
+                <li>T-shirts</li>
+                <li>Trousers</li>
+                <li>Sweatshirts</li>
+                <li>Shorts</li>
+                <li>Shoes</li>
+                <li>Watch</li>
+            </ul>
+        </div>  
         
+        <pre class="comp__container-code">
+            <code class="html">
+                &lt;ul class="list">
+                    &lt;div class="list-heading">
+                        Categories
+                    &lt;/div>
+                    &lt;li>T-shirts&lt;/li>
+                    &lt;li>Trousers&lt;/li>
+                    &lt;li>Sweatshirts&lt;/li>
+                    &lt;li>Shorts&lt;/li>
+                    &lt;li>Shoes&lt;/li>
+                    &lt;li>Watch&lt;/li>
+                &lt;/ul>
+            </code>
+        </pre>
+
+        <h2 class="comp__header comp__header-sub">
+            Check List
+        </h2>
+        <div class="comp__container-desc flex">
+            <ul class="list">
+                <div class="list-heading">
+                    Filters
+                </div>
+                <label for="checkbox1">
+                    <input type="checkbox" />
+                    All
+                </label>
+                <label for="checkbox2">
+                    <input type="checkbox" />
+                    For Men
+                </label>
+                <label for="checkbox3">
+                    <input type="checkbox" />
+                    For Women
+                </label>
+                <label for="checkbox3">
+                    <input type="checkbox" />
+                    For Kids
+                </label>
+            </ul>
+        </div>
+
+        <pre class="comp__container-code">
+            <code class="html">
+                &lt;ul class="list">
+                    &lt;div class="list-heading">
+                       Filters
+                    &lt;/div>
+
+                    &lt;label for="...">
+                        &lt;input type="checkbox" />
+                        For Men
+                    &lt;/label>
+
+                    &lt;label for="...">
+                        &lt;input type="checkbox" />
+                        For Kids
+                    &lt;/label>
+                &lt;/ul>
+            </code>
+        </pre>
+
     </main>
 </body>
 </html>

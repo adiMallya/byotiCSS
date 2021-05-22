@@ -1,0 +1,32 @@
+.list{
+    padding-inline-start: 0;
+    padding: 1rem;
+    border: 1px solid #e6e6e9;
+    width: 15rem;
+}
+
+.list-heading{
+    font-weight: 600;
+    font-size: 1.1em;
+    /* padding: 0.05rem; */
+}
+
+.list > li{
+    list-style: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.list >li:hover{
+    color: var(--primary);
+}
+
+.list > label{
+    display: block;
+    margin: 1rem;
+}
+
+.list > label > input{
+    margin-right: 1rem;
+}
+
