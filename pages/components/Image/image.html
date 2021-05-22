@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert</title>
+    <title>Image</title>
     <link rel="stylesheet" href="/pages/styles.css">
-    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="image.css">
 </head>
 <body>
     <header class="header">
@@ -68,7 +68,49 @@
             </code>
         </pre>
 
-        
+        <h2 class="comp__header comp__header-sub">
+            Responsive Image
+        </h2>
+        <div 
+            class="comp__container-desc flex"
+            style="width: 30rem; max-width: 50%; margin-bottom: 1rem;"
+        >
+            <img class="img-res" src="/assets/splits.jpg" alt="">
+        </div>
+
+        <p class="comp-desc">
+            Add the <span class="highlight">img-res</span> class to the 
+            <span class="highlight">img</span> tag. The image will grow
+            to 100% of its parent container.
+        </p>
+
+        <pre class="comp__container-code">
+            <code class="html">
+                &lt;img src="..." alt="" class="img-res" />
+            </code>
+        </pre>
+
+         <h2 class="comp__header comp__header-sub">
+            Round Image
+        </h2>
+        <div 
+            class="comp__container-desc flex"
+            style="width: 15rem;margin-bottom: 1rem;"
+        >
+            <img class="img-round" src="/assets/splits.jpg" alt="">
+        </div>
+
+        <p class="comp-desc">
+            Add the <span class="highlight">img-round</span> class to the 
+            <span class="highlight">img</span> tag to get a round image which
+            grows to 100% of its parent container.
+        </p>
+        <pre class="comp__container-code">
+            <code class="html">
+                &lt;img src="..." alt="" class="img-round" />
+            </code>
+        </pre>
+
     </main>
 </body>
 </html>
