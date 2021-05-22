@@ -1,0 +1,45 @@
+.input{
+    position: relative;
+    margin: 0.5em;
+}
+
+.input > input{
+    border-radius: 0.2em;
+    border: 2px solid #9b9ba0;
+    width: 20em;
+    height: 3em;
+    padding: 0.3rem;
+}
+
+.input > label{
+    position: absolute;
+    top: -0.6rem;
+    left: 1rem;
+    font-size: 0.9em;
+    padding: 0.2rem;
+    background: #fff;
+}
+
+.input > input.success{
+    border: 2px solid #059669;
+}
+
+.input > label.success{
+    color: #059669;
+}
+
+.input > input.warn{
+    border: 2px solid #ffae22;
+}
+
+.input > label.warn{
+    color: #ffae22;
+}
+
+.input > input.error{
+    border: 2px solid #e63030;
+}
+
+.input > label.error{
+    color: #e63030;
+}

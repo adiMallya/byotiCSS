@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert</title>
+    <title>Input</title>
     <link rel="stylesheet" href="/pages/styles.css">
-    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="input.css">
 </head>
 <body>
     <header class="header">
@@ -68,7 +68,69 @@
             </code>
         </pre>
 
-       
+       <h2 class="comp__header comp__header-sub">
+           Standard Input
+       </h2>
+
+       <div class="comp__container-desc flex">
+           <div class="input">
+               <label for="">Label</label>
+               <input type="text"/>
+           </div>
+       </div>
+
+        <pre class="comp__container-code">
+            <code class="html">
+                &lt;div class="input">
+                    &lt;label for="">Label&lt;/label>
+                    &lt;input type="text"/>
+                &lt;/div>
+            </code>
+        </pre>
+
+        <h2 class="comp__header comp__header-sub">
+            Validation Inputs
+        </h2>
+
+        <div class="comp__container-desc flex flex-wrap">
+            <div class="input">
+               <label for="" class="success">Label</label>
+               <input type="text" class="success" />
+            </div>
+            <!-- <div class="input">
+               <label for="" class="warn">Label</label>
+               <input type="text" class="warn" />
+            </div> -->
+            <div class="input">
+               <label for="" class="error">Label</label>
+               <input type="text" class="error" />
+            </div>
+        </div>
+
+        <p class="comp-desc">
+            There are three types of inputs available
+            <span class="highlight">success</span>, 
+            <span class="highlight">warn</span>, 
+            <span class="highlight">error</span>.
+        </p>
+
+        <pre class="comp__container-code">
+            <code class="html">
+                &lt;div class="input">
+                    &lt;label for="" class="success">Label&lt;/label>
+                    &lt;input type="text" class="success"/>
+                &lt;/div>
+                &lt;div class="input">
+                    &lt;label for="" class="warn">Label&lt;/label>
+                    &lt;input type="text" class="warn"/>
+                &lt;/div>
+                &lt;div class="input">
+                    &lt;label for="" class="error">Label&lt;/label>
+                    &lt;input type="text" class="error"/>
+                &lt;/div>
+            </code>
+        </pre>
+
     </main>
 </body>
 </html>
