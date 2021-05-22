@@ -1,0 +1,6 @@
+.toast{
+    background: #ECC2D3;;
+    padding : 1rem;
+    border-radius : 0.5rem;
+    border-left: 10px solid var(--primary);
+}
