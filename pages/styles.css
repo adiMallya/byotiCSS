@@ -2,7 +2,9 @@
 
 :root{
     --primary : #BE185D;
-    --grey-light : #E5E7EB;
+    --secondary : #E5E7EB;
+    --font-color-primary : #fff;
+    --font-color-secondary : #000;
 }
 
 *, *::after, ::before{
@@ -14,7 +16,7 @@
 
 a{
     text-decoration: none;
-    color: #000;
+    color: var(--font-color-secondary)
 }
 
 /* Utilities */
@@ -30,6 +32,9 @@ a{
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
 /* .spc-btw{
     justify-content: space-between;
 }
