@@ -5,6 +5,7 @@
     --secondary : #E5E7EB;
     --font-color-primary : #fff;
     --font-color-secondary : #000;
+    --card-max-width : 25rem;
 }
 
 *, *::after, ::before{
