@@ -9,7 +9,7 @@
     width: var(--card-width);
     max-width: var(--card-max-width);
     position: relative;
-    background: f0f0f0;
+    background: #fff;
 }
 
 
