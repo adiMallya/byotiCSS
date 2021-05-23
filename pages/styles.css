@@ -176,6 +176,10 @@ nav{
     line-height: 1.5em;
 }
 
+/* Page Turner */
+.page-turner{
+   display: none;
+}
 
 
 /* Media queries */
@@ -200,8 +204,27 @@ nav{
     nav{
         display: none;
     }
+
+    .page-turner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem 0 2rem 0;
+        width: 95%;
+    }
+
+    .turner-btn{
+        display: flex;
+        align-items: center;
+    }
+
+    .turner-btn >img{
+        width: 0.7rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
     .comp__section{
-        max-width: 100%;
+        max-width: 95%;
         margin-top: 7rem;
         margin-left: 1rem;
         margin-right: 1rem;
