@@ -36,13 +36,6 @@ a{
 .flex-wrap{
     flex-wrap: wrap;
 }
-/* .spc-btw{
-    justify-content: space-between;
-}
-
-.flex-wrap{
-    flex-wrap: wrap;
-} */
 
 .highlight{
     background: #ECC2D3;
@@ -221,6 +214,7 @@ nav{
         width: 0.7rem;
         margin-left: 0.3rem;
         margin-right: 0.3rem;
+        color: #fff;
     }
 
     .comp__section{
