@@ -177,7 +177,7 @@ nav{
 }
 
 /* Page Turner */
-.page-turner{
+.page-turn{
    display: none;
 }
 
@@ -205,19 +205,19 @@ nav{
         display: none;
     }
 
-    .page-turner{
+    .page-turn{
         display: flex;
         justify-content: space-between;
         margin: 0.5rem 0 2rem 0;
         width: 95%;
     }
 
-    .turner-btn{
+    .turn-btn{
         display: flex;
         align-items: center;
     }
 
-    .turner-btn >img{
+    .turn-btn >img{
         width: 0.7rem;
         margin-left: 0.3rem;
         margin-right: 0.3rem;
