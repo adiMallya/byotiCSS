@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image</title>
     <link rel="stylesheet" href="/pages/styles.css">
-    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="image.css"><!-- code highlighter -->
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+
 </head>
 <body>
     <header class="header">
@@ -75,8 +78,9 @@
         <h1 class="comp__header">Image</h1>
         <pre class="comp__container-code">
             <code class="html">
-                @import(url)
-                &lt;link rel="stylesheet" href="">
+                @import url("https://byoticss.netlify.app/pages/components/image/image.css");
+                &lt;link rel="stylesheet"
+                 href="https://byoticss.netlify.app/pages/components/image/image.css">
             </code>
         </pre>
 
@@ -124,5 +128,7 @@
         </pre>
 
     </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
