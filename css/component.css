@@ -1,3 +1,4 @@
+@import url("/css/defaults.css");
 @import url("/pages/components/Avatar/avatar.css");
 @import url("/pages/components/Alert/alert.css");
 @import url("/pages/components/Button/button.css");
@@ -7,7 +8,6 @@
 @import url("/pages/components/List/list.css");
 @import url("/pages/components/Navigation/navigation.css");
 @import url("/pages/components/Toast/toast.css");
-
 
 
 
