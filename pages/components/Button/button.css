@@ -71,3 +71,24 @@
 .btn-icon > span{
     margin-left: 0.5rem;
 }
+
+.link-no-style{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+button.link-no-style{
+    font-size: 1rem;
+}
+
+.link-text{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
