@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
     <title>Card</title>
     <link rel="stylesheet" href="/pages/styles.css">
     <link rel="stylesheet" href="card.css">
-    <!-- code highlighter -->
+    <link rel="stylesheet" href="/pages/components/Button/button.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    <!-- code highlighter -->
     <link rel="stylesheet"
     href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
 </head>
@@ -90,48 +91,100 @@
 
         
         <div class="comp__container-desc flex flex-wrap">
-                <div class="card">
+            <div class="card-vertical default-container flex-items shadow-box">
+                <div class="img-container badge-container">
                     <img
-                        src="https://rukminim1.flixcart.com/image/416/416/jdhp47k0/mobile/e/h/e/redmi-note-5-pro-na-original-imaf2ashnnbxxks5.jpeg?q=70"
-                        alt="Product"
-                        class="card-cover"
+                        loading="lazy"
+                        class="img-res card-img product-card-img"
+                        src="https://www.goalsquad.com/pub/media/catalog/product/cache/fd29203af382a823bfc3275bd372de6f/f/o/football-la-liga-barcelona-stainless-steel-drinks-bottle-blk-st-fcbdbblk18917-0-1.jpg"
+                        alt="product"
                     />
-                    <div class="card-icon">
-                        <img src="/assets/heart.svg" alt="wishlist" />
+                    <span class="badge">New</span>
+                </div>
+                <div class="text-container">
+                    <div class="text-container-title">
+                        <h4 class="product-title">F.C. Barcelona Stainless Steel Drinks Bottle
+                            <button class="like-btn link-no-style">
+                                <span><i class="fa fa-heart"></i></span>
+                            </button>
+                        </h4>
                     </div>
-                    <div class="card-text">
-                        <div class="card-heading">
-                            Redmi Note
-                        </div>
-                        <div class="card-sub-heading">XIA0MI</div>
-                        <div class="card-para">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Dignissimos, voluptatem veritatis! Rerum asperiores nostrum
-                            dolor hic eum mollitia natus quos.
-                        </div>
-                        <div class="card-price">
-                            <span class="price-discounted">₹2000</span>
-                            <span class="price-original">₹3500</span>
-                        </div>
+                    <div class="text-container-desc display-flex-col">
+                        <p class="">Lorem ipsum dolor</p>
+                        <p class="font-semibold flex-grow">Rs 2000 <span class="font-light font-striked">Rs 3500</span></p>
+                    </div>
+                    <div class="cta-container">
+                        <button class="btn btn-icon btn-primary flex-items">
+                            <img src="/assets/cart-white.svg" alt="cta-img"/>
+                            <span>Add to cart</span>
+                        </button>
                     </div>
                 </div>
+            </div>
+
+            <div class="card-horizontal default-container flex-items shadow-box">
+                <div class="img-container badge-container">
+                    <img
+                        loading="lazy"
+                        class="img-res card-img product-card-img"
+                        src="https://www.goalsquad.com/pub/media/catalog/product/cache/fd29203af382a823bfc3275bd372de6f/f/o/football-la-liga-barcelona-stainless-steel-drinks-bottle-blk-st-fcbdbblk18917-0-1.jpg"
+                        alt="product"
+                    />
+                    <span class="badge">New</span>
+                </div>
+                <div class="text-container">
+                    <div class="text-container-title">
+                        <h4 class="product-title">F.C. Barcelona Drinks Bottle</h4>
+                        <small>Official Futbol Club Barcelona</small>
+                    </div>
+                    <div class="text-container-desc">
+                        <p class="font-semibold">Rs 2000 <span class="font-light font-striked">Rs 3500</span></p>
+                    </div>
+                    <div class="cta-container">
+                        <button class="btn btn-icon btn-primary">
+                            <img src="/assets/cart-white.svg" alt="cta-img"/>
+                            <span>Add to cart</span>
+                        </button>
+                        <button class="btn btn-secondary">
+                            <span>Move to Wishlist</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
 
          <pre class="comp-code-container">
              <code class="html">
-                &lt;div class="card">
-                    &lt;img src="..." alt="" class="cover" />
-                    &lt;div class="card-icon">
-                        &lt;img src="..." alt="" />
+                &lt;div class="card-vertical default-container flex-items shadow-box">
+                    &lt;div class="img-container badge-container">
+                        &lt;img
+                         loading="lazy"
+                         class="img-res card-img product-card-img"
+                         src="..."
+                         alt="" 
+                         />
+                        &lt;span class="badge">New&lt;/span>
+                    &lt;/div>     
+                    &lt;div class="text-container">
+                        &lt;div class="text-container-title">
+                        &lt;h4 class="product-title">Title
+                            &lt;button class="like-btn link-no-style">
+                                &lt;span>&lt;i class="fa fa-heart">&lt;/i>&lt;/span>
+                            &lt;/button>
+                        &lt;/h4>
                     &lt;/div>
-                    &lt;div class="card-text">
-                        &lt;div class="card-heading">Redmi Note&lt;/div>
-                        &lt;div class="card-sub-heading">XIA0MI&lt;/div>
-                        &lt;div class="card-para">Lorem ipsum dolor...&lt;/div>
-                        &lt;div class="card-price">
-                            &lt;span class="price">₹2000&lt;/span>
-                            &lt;span class="price-original">₹3500&lt;/span>
-                        &lt;/div>
+                    &lt;div class="text-container-desc display-flex-col">
+                        &lt;p class="">Lorem ipsum dolor&lt;/p>
+                        &lt;p class="font-semibold flex-grow">Rs X 
+                            &lt;span class="font-light font-striked">Rs Y&lt;/span>
+                        &lt;/p>
+                    &lt;/div>
+                    &lt;div class="cta-container">
+                        &lt;button class="btn btn-icon btn-primary flex-iems">
+                            &lt;img src="..." alt="cta-img"/>
+                            &lt;span>Add to cart&lt;/span>
+                        &lt;/button>
+                    &lt;/div>
                     &lt;/div>
                 &lt;/div>
             </code>

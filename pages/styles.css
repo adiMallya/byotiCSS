@@ -161,6 +161,7 @@ nav{
 
 .comp__container-code{
     padding: 0;
+    overflow-y: auto;
 }
 
 .comp__container-code > code{
