@@ -17,8 +17,8 @@
     cursor: pointer;
 }
 
-.list >li:hover{
-    color: var(--primary);
+.list.list-hover >li:hover{
+    background-color: var(--secondary);
 }
 
 .list > label{
