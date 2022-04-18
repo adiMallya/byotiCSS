@@ -1,0 +1,28 @@
+@import './docsite-nav.css';
+@import './docsite-sidebar.css';
+@import './docsite-footer.css';
+
+.component__display{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 2rem 0;
+  border: 1px solid var(--secondary-color);
+  align-items: center;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+
+.code-snippet__display{
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 300px;
+  overflow: auto;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background-color: #FAFAFA;
+}
+.code-snippet__display iframe{
+  width: 100%;
+  border: none;
+}
