@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap'); */
+
+@import './lists.css';
+@import './image.css';
+@import './typography.css';
+@import './button.css';
+@import './navigation.css';
+
+:root{
+	/* 
+		set primary, secondary and other color
+		preferences in the main/root stylesheet
+		of your application: 
+
+		--primary-color
+		--secondary-color
+		--primary-text-color
+		--secondary-text-color
+		--btn-toggle-color
+	*/
+  --z-index-1: 1;
+	--z-index-2: 2;
+	--z-index-3: 3;
+	--z-index-4: 4;
+	--z-index-5: 5;
+	--z-index-6: 6;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*, *::after, ::before{
+  margin: 0;
+}
