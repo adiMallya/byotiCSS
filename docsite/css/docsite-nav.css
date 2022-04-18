@@ -1,0 +1,44 @@
+.navbar{
+  grid-area: header;
+  top: 0;
+}
+
+#my-logo{
+  padding: 0 3rem 0 2rem;
+  width: fit-content;
+}
+.my-logo{
+  display: inline-flex;
+  max-width: max-content;
+  align-items: center;
+  font-size: 2rem;
+}
+.my-logo > img{
+  width: 2rem;
+}
+.logo-tagline{
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#my-navbar a,
+#my-navbar a i {
+  transition: 0.2s ease;
+}
+#my-navbar a:hover,
+#my-navbar a:hover i{
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 1024px){
+  .active .navbar-links{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .active .navbar-toggler{
+    position: fixed;
+  }
+}
