@@ -1,6 +1,9 @@
 .navbar{
   grid-area: header;
+  min-height: 10vh;
+  width: 100%;
   top: 0;
+  z-index: var(--z-index-3);
 }
 
 #my-logo{

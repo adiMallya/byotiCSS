@@ -16,82 +16,83 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-    <nav id="my-navbar" class="navbar">
-        <div class="nav-section">
-            <div id="my-toggler" class="navbar-toggler nav-section__items">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-
-            <div class="nav-brand nav-section__items" id="my-logo">
-                <div class="my-logo">
-                    <img src="assets/logo.png" alt="brand"/><span
-                        class="logo-title">byoti</span>
+    <div class="grid-pagelayout">
+        <nav id="my-navbar" class="navbar">
+            <div class="nav-section">
+                <div id="my-toggler" class="navbar-toggler nav-section__items">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
                 </div>
-                <div class="logo-tagline">TO BYOTI<em>FY</em> YOUR WEB</div>
-            </div>
-
-            <ul class="navbar-links list--style-none nav-section__items">
-                <li class="list__inline-item brand-in-nav-links">
+        
+                <div class="nav-brand nav-section__items" id="my-logo">
                     <div class="my-logo">
-                        <img src="assets/logo.png" alt="brand"/><span
-                            class="logo-title">byoti</span>
+                        <img src="assets/logo.png" alt="brand" /><span class="logo-title">byoti</span>
                     </div>
                     <div class="logo-tagline">TO BYOTI<em>FY</em> YOUR WEB</div>
-                </li>
-                <li class="list__inline-item">
-                    <a href="./" class="link-no-style">Home</a>
-                </li>
-                <li class="list__inline-item">
-                    <a href="/docsite/docs.html" class="link-no-style">Documentation</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="nav-section">
-            <ul class="nav-icons list--style-none nav-section-item-width50pc">
-                <li class="list__inline-item">
-                    <a href="https://github.com/adiMallya/byotiCSS" class="nav-icon-link link-no-style">
-                        <span class="nav-icon">
-                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </div>
+        
+                <ul class="navbar-links list--style-none nav-section__items">
+                    <li class="list__inline-item brand-in-nav-links">
+                        <div class="my-logo">
+                            <img src="assets/logo.png" alt="brand" /><span class="logo-title">byoti</span>
+                        </div>
+                        <div class="logo-tagline">TO BYOTI<em>FY</em> YOUR WEB</div>
+                    </li>
+                    <li class="list__inline-item">
+                        <a href="./" class="link-no-style">Home</a>
+                    </li>
+                    <li class="list__inline-item">
+                        <a href="./docs.html" class="link-no-style">Documentation</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-section">
+                <ul class="nav-icons list--style-none nav-section-item-width50pc">
+                    <li class="list__inline-item">
+                        <a href="https://github.com/adiMallya/byotiCSS" class="nav-icon-link link-no-style">
+                            <span class="nav-icon">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list__inline-item">
+                        <span class="nav-icon-link link-no-style btn-disabled">
+                            <span class="nav-icon">
+                                <i class="fa-solid fa-moon" id="toggle-theme"></i>
+                            </span>
                         </span>
-                    </a>
-                </li>
-                <li class="list__inline-item">
-                    <span class="nav-icon-link link-no-style btn-disabled">
-                        <span class="nav-icon">
-                            <i class="fa-solid fa-moon" id="toggle-theme"></i>
-                        </span>
-                    </span>
-                </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="sidebar shadow-bottom" id="my-sidebar">
+            <div class="drop-down-menu">
+                <h2 class="h6 nav-title">Components</h2>
+                <span class="drop-down-arrow"><i class="h5 fa-solid fa-chevron-down"></i></span>
+            </div>
+        
+            <ul class="nav-links list--style-none">
+                <li class="nav-link__item"><a href="#Alerts">Alerts</a></li>
+                <li class="nav-link__item"><a href="#Avatar">Avatar</a></li>
+                <li class="nav-link__item"><a href="#Button">Button</a></li>
+                <li class="nav-link__item"><a href="#Cards">Cards</a></li>
+                <li class="nav-link__item"><a href="#Form">Form</a></li>
+                <li class="nav-link__item"><a href="#Image">Image</a></li>
+                <li class="nav-link__item"><a href="#Lists">Lists</a></li>
+                <li class="nav-link__item"><a href="#Modal">Modal</a></li>
+                <li class="nav-link__item"><a href="#Navigation">Navigation</a></li>
+                <li class="nav-link__item"><a href="#Grids">Grids</a></li>
+                <li class="nav-link__item"><a href="#Typography">Typography</a></li>
+                <li class="nav-link__item"><a href="#Toast">Toast</a></li>
             </ul>
+            <div style="height: 1.5rem;"></div>
         </div>
-    </nav>
-
-    <div class="sidebar shadow-bottom" id="my-sidebar">
-        <div class="drop-down-menu">
-            <h2 class="h5 nav-title">Components</h2>
-            <span class="drop-down-arrow"><i class="h5 fa-solid fa-chevron-down"></i></span>
-        </div>
-
-        <ul class="nav-links list--style-none">
-            <li class="nav-link__item"><a href="#Alerts">Alerts</a></li>
-            <li class="nav-link__item"><a href="#Avatar">Avatar</a></li>
-            <li class="nav-link__item"><a href="#Button">Button</a></li>
-            <li class="nav-link__item"><a href="#Cards">Cards</a></li>
-            <li class="nav-link__item"><a href="#Form">Form</a></li>
-            <li class="nav-link__item"><a href="#Image">Image</a></li>
-            <li class="nav-link__item"><a href="#Lists">Lists</a></li>
-            <li class="nav-link__item"><a href="#Modal">Modal</a></li>
-            <li class="nav-link__item"><a href="#Navigation">Navigation</a></li>
-            <li class="nav-link__item"><a href="#Grids">Grids</a></li>
-            <li class="nav-link__item"><a href="#Typography">Typography</a></li>
-            <li class="nav-link__item"><a href="#Toast">Toast</a></li>
-        </ul>
-        <div style="height: 1.5rem;"></div>
+        
     </div>
+
 
     <a href="#" class="btn btn-float-action link-no-style"><i class="fa-solid fa-arrow-up"></i></a>
 

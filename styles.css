@@ -29,6 +29,17 @@ main {
   padding: 1rem 3rem;
 }
 
+.grid-pagelayout{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+      'header header header header header'
+      'sidebar main main main main'
+      'sidebar main main main main'
+      'sidebar main main main main';
+  margin-bottom: 1.5rem;
+}
+
 h2 {
   padding-top: 1rem;
 }
@@ -39,7 +50,20 @@ h2 {
 }
 
 @media screen and (max-width: 1024px){
+  body{
+    width: 100vw;
+  }
+
   main{
     padding: 1rem 1.625rem;
+  }
+
+  .grid-pagelayout{
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        'header'
+        'sidebar'
+        'main';
   }
 }
