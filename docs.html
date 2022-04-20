@@ -82,7 +82,7 @@
                 <li class="nav-link__item"><a href="#Cards">Cards</a></li>
                 <li class="nav-link__item"><a href="#Form">Form</a></li>
                 <li class="nav-link__item"><a href="#Image">Image</a></li>
-                <li class="nav-link__item"><a href="#Lists">Lists</a></li>
+                <li class="nav-link__item"><a href="#List">Lists</a></li>
                 <li class="nav-link__item"><a href="#Modal">Modal</a></li>
                 <li class="nav-link__item"><a href="#Navigation">Navigation</a></li>
                 <li class="nav-link__item"><a href="#Grids">Grids</a></li>
@@ -243,7 +243,128 @@
             
             <hr>
 
+            <section id="List">
+                <div class="component-intro">
+                    <h2 class="h3">Lists</h2>
+                    <p class="body-cp-lg text-light-weight">Lists are used to group related content. They are used in navigation
+                        bar, stacked notifications, etc.</p>
+                </div>
 
+                <h3 class="h5">Unordered List with bullets</h3>
+                <p>Customise your bullet style by adding the respective class.</p>
+                <div class="component__display">
+                    <ul class="list flex-items list-container">
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ul>
+                    <ul class="list list--style-square flex-items list-container">
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ul>
+                    <ul class="list list--style-circle flex-items list-container">
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ul>                   
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list%2520list--style-square%2522%253E%250A%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list%2520list--style-circle%2522%253E%250A%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E%2520"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Ordered List with bullets</h3>
+                <p>Customise your bullet style by adding the respective class.<br/>To reverse the order of list, add <span class="text-highlight">
+                    reversed</span> attribute to <em>&lt;ol&gt;</em> element.</p>
+                <div class="component__display">
+                    <ol class="list flex-items list-container">
+                        <li>list item</li>
+                        <li>list item</li>
+                        <li>list item</li>
+                    </ol>
+                    <ol class="list list--style-small-alpha flex-items list-container">
+                        <li>list item</li>
+                        <li>list item</li>
+                        <li>list item</li>
+                    </ol>
+                    <ol class="list list--style-small-alpha flex-items list-container" reversed>
+                        <li>list item reversed</li>
+                        <li>list item reversed</li>
+                        <li>list item reversed</li>
+                    </ol>
+                    <ol class="list list--style-capital-alpha flex-items list-container">
+                        <li>list item</li>
+                        <li>list item</li>
+                        <li>list item</li>
+                    </ol>
+                    <ol class="list list--style-small-roman flex-items list-container">
+                        <li>list item</li>
+                        <li>list item</li>
+                        <li>list item</li>
+                    </ol>
+                    <ol class="list list--style-capital-roman flex-items list-container">
+                        <li>list item</li>
+                        <li>list item</li>
+                        <li>list item</li>
+                    </ol>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list--style-small-alpha%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list--style-small-alpha%2522%2520reversed%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%2520reversed%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%2520reversed%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%2520reversed%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list--style-capital-alpha%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list--style-small-roman%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list--style-capital-roman%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%253C%252Fol%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">List with no bullets</h3>
+                <p>Lists with no bullet and indentation are used in drop down, menus etc. Just add 
+                    <span class="text-highlight">list--style-none</span> class.</p>
+                <div class="component__display">
+                    <ul class="list list--style-none list-container">
+                        <li>list item1</li>
+                        <li>list item2</li>
+                        <li>list item3</li>
+                    </ul>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520list--style-none%2522%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>                       
+                    </code>
+                </div>
+
+                <h3 class="h5">Inline List</h3>
+                <p>If you want list items in same line instead of stacked, add <span class="text-highlight">
+                    inline-list</span> class to the list element.</em> <br> You can add <span class="text-highlight">
+                    list--style-none</span> to remove bullets.</p>
+                <div class="component__display">
+                    <ul class="inline-list list--style-none">
+                        <li class="list__inline-item">list item1</li>
+                        <li class="list__inline-item">list item2</li>
+                        <li class="list__inline-item">list item3</li>
+                    </ul>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522inline-list%2520list--style-none%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2522%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2522%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2522%253Elist%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+                    </code>
+                </div>
+            </section>
         </main>
     </div>
 
