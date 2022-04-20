@@ -1,0 +1,9 @@
+.img-res{
+  height: auto;
+  width: 100%;
+}
+.img-round{
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+}
