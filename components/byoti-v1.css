@@ -33,3 +33,42 @@ html{
 *, *::after, ::before{
   margin: 0;
 }
+
+.display-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.flex-items{
+  margin: 1rem 1rem 1rem 0;
+}
+.flex-wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
+.flex-grow{
+  flex-grow: 1;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.column-80-pc{
+  width: calc(80% - 1rem);
+}
+.column-20-pc{
+  width: 20%;
+}
+
+.shadow-bottom{
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+.shadow-box{
+  box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+}

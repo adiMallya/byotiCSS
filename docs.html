@@ -17,7 +17,8 @@
 </head>
 <body>
     <div class="grid-pagelayout">
-        <nav id="my-navbar" class="navbar">
+
+        <nav id="my-navbar" class="navbar shadow-box">
             <div class="nav-section">
                 <div id="my-toggler" class="navbar-toggler nav-section__items">
                     <div class="line1"></div>
@@ -68,7 +69,7 @@
             </div>
         </nav>
         
-        <div class="sidebar shadow-bottom" id="my-sidebar">
+        <div class="sidebar shadow-box" id="my-sidebar">
             <div class="drop-down-menu">
                 <h2 class="h6 nav-title">Components</h2>
                 <span class="drop-down-arrow"><i class="h5 fa-solid fa-chevron-down"></i></span>
@@ -91,6 +92,125 @@
             <div style="height: 1.5rem;"></div>
         </div>
         
+        <main>
+            <section id="Button">
+                <div class="component-intro">
+                    <h2 class="h3">Buttons</h2>
+                    <p class="body-cp-lg text-light-weight">Add custom button styles for actions in your page 
+                        with support for multiple sizes and states. You can use these <span class="text-highlight">btn</span>
+                        classes on <em>&lt;a&gt;</em> or <em>&lt;button&gt;</em> elements.</p>
+                </div>
+                <h3 class="h5">Primary Button Styles</h3>
+                <p class="text-light-weight">Want to make your users click on THAT BUTTON? use primary style buttons.</p>
+                <div class="component__display">
+                    <button class="btn flex-items btn--primary-solid">Primary-solid</button>
+                    <button class="btn flex-items btn--primary-outline">Primary-outline</button>
+                    <a class="link-text flex-items link-text--primary">Primary-text</a>
+                    <a class="btn flex-items btn--primary-icon"><span class="btn-icon">
+                    <i class="fa-solid fa-shopping-cart"></i></span></a>
+                    <button class="btn flex-items btn--primary-text-icon"><span class="btn-icon">
+                    <i class="fa-solid fa-shopping-cart"></i></span>Add to cart</button>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2522%253EPrimary-solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn--primary-outline%2522%253EPrimary-outline%253C%252Fbutton%253E%250A%253Ca%2520class%253D%2522link-text%2520link-text--primary%2522%253EPrimary-text%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn--primary-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn--primary-text-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520cart%253C%252Fbutton%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Secondary Button Styles</h3>
+                <p class="text-light-weight">If you want user not to pay attention to buttons then use Secondary buttons.</p>
+                <div class="component__display">
+                    <button class="btn flex-items btn--secondary-solid">Solid</button>
+                    <button class="btn flex-items btn--secondary-outline">Outline</button>
+                    <a class="link-text flex-items link-text--secondary">Text Link</a>
+                    <a class="btn flex-items btn--secondary-icon"><span class="btn-icon">
+                    <i class="fa-solid fa-trash-alt"></i></span></a>
+                    <button class="btn flex-items btn--secondary-text-icon"><span class="btn-icon">
+                    <i class="fa-solid fa-minus"></i></span>Remove</button>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn--secondary-solid%2522%253ESecondary-solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn--secondary-outline%2522%253ESecondary-outline%253C%252Fbutton%253E%250A%253Ca%2520class%253D%2522link-text%2520link-text--secondary%2522%253EText%2520link%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn--secondary-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fa%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn--secondary-text-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-minus%2522%253E%253C%252Fi%253E%253C%252Fspan%253ERemove%253C%252Fbutton%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Disabled state</h3>
+                <p class="text-light-weight">Make buttons look inactive by adding the <span class="text-highlight">btn-disabled</span>
+                class to any <em>&lt;button&gt;</em> element.</p>
+                <div class="component__display">
+                    <button class="btn flex-items btn--primary-solid btn-disabled">Primary-solid</button>
+                    <button class="btn flex-items btn--secondary-text-icon btn-disabled"><span class="btn-icon">
+                    <i class="fa-solid fa-minus"></i></span>Remove</button>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520btn-disabled%2522%253EPrimary-solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn--secondary-text-icon%2520btn-disabled%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-minus%2522%253E%253C%252Fi%253E%253C%252Fspan%253ERemove%253C%252Fbutton%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+                
+                <h3 class="h5">Sizes</h3>
+                <p class="text-light-weight">Fancy larger or smaller buttons? Add <span class="text-highlight">btn-lg</span> or
+                <span class="text-highlight">btn-sm</span> class for additional sizes.</p>
+                <div class="component__display">
+                    <button class="btn btn--primary-solid btn-lg">Large</button>
+                    <button class="btn btn--primary-solid btn-sm">Small</button>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520btn-lg%2522%253ELarge%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520btn-sm%2522%253ESmall%253C%252Fbutton%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Toogle and Floating action Buttons</h3>
+                <p class="text-light-weight">Use toggle button to switch between two states. Toggle button can be used to switch the theme
+                of your page.<br> Floating action button triggers the primary action in you app's UI. Customize them to your need by adding
+                the font-awesome icon. This button will be fied to right-bottom corner.</p>
+                <div class="component__display">
+                    <label class="btn-toggle flex-items">
+                        <input class="btn-state" type="checkbox">
+                        <span class="btn-slider"></span>
+                    </label>
+                    <a class="btn btn-float-action flex-items"><i class="fa-solid fa-plus"></i></a>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522btn-toggle%2520flex-items%2522%253E%250A%2520%2520%253Cinput%2520class%253D%2522btn-state%2522%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522btn-slider%2522%253E%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%253Ca%2520class%253D%2522btn%2520btn-float-action%2520flex-items%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fa%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- <section id="Image">
+                <div class="component-intro">
+                    <h2 class="h3">Images</h2>
+                    <p class="body-cp-lg text-light-weight">Add custom button styles for actions in your page 
+                        with support for multiple sizes and states. You can use these <span class="text-highlight">btn</span>
+                        classes on <em>&lt;a&gt;</em> or <em>&lt;button&gt;</em> elements.</p>
+                </div>
+            </section> -->
+            
+        </main>
     </div>
 
 
