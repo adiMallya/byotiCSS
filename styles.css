@@ -12,6 +12,8 @@
   --bg-color-primary: #fcfcfc;
   --bg-color-secondary: rgb(105,110,121);
   --bg-color-secondary-2: #3f3947;
+
+  --btn-toggle-color: #BE185D;
 }
 
 * {
@@ -42,6 +44,10 @@ main {
 
 h2 {
   padding-top: 1rem;
+}
+
+hr {
+  margin: 3rem 0 2rem;
 }
 
 .spacer {
