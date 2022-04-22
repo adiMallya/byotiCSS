@@ -1,6 +1,9 @@
 .list{
   margin-bottom: 1rem;
 }
+.list li:not(:last-child){
+  padding-bottom: 0.625rem;
+}
 .list-container{
   padding: 1rem 32px 1rem 40px;
 }
