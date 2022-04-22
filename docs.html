@@ -26,7 +26,7 @@
                     <div class="line3"></div>
                 </div>
         
-                <div class="nav-brand nav-section__items" id="my-logo">
+                <div class="navbar-brand nav-section__items" id="my-logo">
                     <div class="my-logo">
                         <img src="assets/logo.png" alt="brand" /><span class="logo-title">byoti</span>
                     </div>
@@ -84,7 +84,7 @@
                 <li class="nav-link__item"><a href="#Image">Image</a></li>
                 <li class="nav-link__item"><a href="#List">Lists</a></li>
                 <li class="nav-link__item"><a href="#Modal">Modal</a></li>
-                <li class="nav-link__item"><a href="#Navigation">Navigation</a></li>
+                <li class="nav-link__item"><a href="#Navbar">Navbar</a></li>
                 <li class="nav-link__item"><a href="#Grids">Grids</a></li>
                 <li class="nav-link__item"><a href="#Typography">Typography</a></li>
                 <li class="nav-link__item"><a href="#Toast">Toast</a></li>
@@ -365,6 +365,107 @@
                     </code>
                 </div>
             </section>
+
+            <hr>
+
+            <section id="Navbar">
+                <div class="component-intro">
+                    <h2 class="h3">Navbar</h2>
+                    <p class="body-cp-lg text-light-weight">Navigation bar is to navigate through web app or websites.
+                        Navbars are responsive, it changes to a hamburger menu in medium and small devices.</p>
+                </div>
+
+                <h3 class="h5">Supported content</h3>
+                <p>Navbar comes with built-in support for handful of sub-components:</p>
+                <ul class="list">
+                    <li><span class="text-highlight">.navbar-toggle</span> to toggle the hamburger in M, S, and XS screens.</li>
+                    <li><span class="text-highlight">.navbar-brand</span> for your company or project name. It will be hidden in M, S and XS screens.</li>
+                    <li><span class="text-highlight">.navbar-brand-title</span> It will be displayed in M, S, XS screens and hidden on L, XL screens.</li>
+                    <li><span class="text-highlight">.navbar-links</span> for your links, that will be displayed in L, XL screens but inside hamburger menu 
+                        in M, S, XS screens.</li>
+                    <li><span class="text-highlight">.search-bar</span> to add a search bar to your navbar.</li>
+                    <li><span class="text-highlight">.nav-section</span> to show icons with text below it. Text will be hidden in M, S, XS screens.</li>
+                </ul>
+                <div class="component__display">
+                    <nav class="navbar shadow-box">
+                        <div class="nav-section">
+                            <div class="navbar-toggler nav-section__items">
+                                <div class="line1"></div>
+                                <div class="line2"></div>
+                                <div class="line3"></div>
+                            </div>
+                            <!-- Brand logo goes here -->
+                            <div class="navbar-brand nav-section__items">
+                                <a href="./" class="link-no-style"><img src="./assets/avatar-3.png" 
+                                    alt="Logo" loading="lazy" width="60" height="60"></a>
+                            </div>
+                            <!-- Brand title goes here -->
+                            <div class="navbar-brand-title nav-section__items">
+                                <a href="./" class="link-no-style">Home</a>
+                            </div>
+                            <!-- Navigation links goes here -->
+                            <ul class="navbar-links list--style-none nav-section__items">
+                                <li class="list__inline-item">
+                                    <a class="link-no-style">T-shirts</a>
+                                </li>
+                                <li class="list__inline-item">
+                                    <a class="link-no-style">Joggers</a>
+                                </li>
+                                <li class="list__inline-item">
+                                    <a class="link-no-style">Shoes</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-section">
+                            <!-- Search bar -->
+                            <label for="search" class="search-bar nav-section-item-width50pc">
+                                <span class="search-bar-btn" type="submit"><i class="fa fa-search"></i></span>
+                                <input type="text" class="search-bar-input" placeholder="Type to search" name="search">
+                            </label>
+                            <!-- Section to show icons with text below it on  -->
+                            <ul class="nav-icons list--style-none nav-section-item-width50pc">
+                                <li class="list__inline-item hide-profile-mobile">
+                                    <a class="nav-icon-link link-no-style">
+                                        <span class="nav-icon">
+                                            <i class="fa-solid fa-user"></i>
+                                        </span>
+                                        <span class="nav-icon-text">Profile</span>
+                                    </a>
+                                </li>
+                                <li class="list__inline-item">
+                                    <a class="nav-icon-link link-no-style">
+                                        <span class="nav-icon">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </span>
+                                        <span class="nav-icon-text">Wishlist</span>
+                                    </a>
+                                </li>
+                                <li class="list__inline-item">
+                                    <a class="nav-icon-link link-no-style">
+                                        <span class="nav-icon">
+                                            <i class="fa-solid fa-shopping-cart"></i>
+                                        </span>
+                                        <span class="nav-icon-text">Cart</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520shadow-box%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-toggler%2520nav-section__items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522line1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522line2%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522line3%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Brand%2520logo%2520goes%2520here%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-brand%2520nav-section__items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522.%252F%2522%2520class%253D%2522link-no-style%2522%253E%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-3.png%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Logo%2522%2520loading%253D%2522lazy%2522%2520width%253D%252260%2522%2520height%253D%252260%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Brand%2520title%2520goes%2520here%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-brand-title%2520nav-section__items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522.%252F%2522%2520class%253D%2522link-no-style%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Navigation%2520links%2520goes%2520here%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-links%2520list--style-none%2520nav-section__items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-no-style%2522%253ET-shirts%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-no-style%2522%253EJoggers%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-no-style%2522%253EShoes%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Search%2520bar%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522search%2522%2520class%253D%2522search-bar%2520nav-section-item-width50pc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522search-bar-btn%2522%2520type%253D%2522submit%2522%253E%253Ci%2520class%253D%2522fa%2520fa-search%2522%253E%2509%2509%2509%2509%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522search-bar-input%2522%2520placeholder%253D%2522Type%2520to%2520%2509%2509%2509%2509%2509search%2522%2520name%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Section%2520to%2520show%2520icons%2520with%2520text%2520below%2520it%2520on%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-icons%2520list--style-none%2520nav-section-item-width50pc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__inline-item%2520hide-profile-mobile%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-icon-link%2520link-no-style%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-icon-text%2522%253EProfile%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id=""></section>
         </main>
     </div>
 
