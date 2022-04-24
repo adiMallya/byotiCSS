@@ -5,6 +5,8 @@
 @import './typography.css';
 @import './button.css';
 @import './navigation.css';
+@import './grid.css';
+@import './cards.css';
 
 :root{
 	/* 
