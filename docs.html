@@ -77,7 +77,7 @@
         
             <ul class="nav-links list--style-none">
                 <li class="nav-link__item"><a href="#Alerts">Alerts</a></li>
-                <li class="nav-link__item"><a href="#Avatar">Avatar</a></li>
+                <li class="nav-link__item"><a href="#Avatar">Avatars</a></li>
                 <li class="nav-link__item"><a href="#Button">Button</a></li>
                 <li class="nav-link__item"><a href="#Cards">Cards</a></li>
                 <li class="nav-link__item"><a href="#Form">Form</a></li>
@@ -93,6 +93,56 @@
         </div>
         
         <main>
+            <section id="Avatar">
+                <div class="component-intro">
+                    <h2 class="h3">Avatars</h2>
+                    <p class="body-cp-lg text-light-weight">Avatars are user profile pictures.</p>
+                </div>
+
+                <h3 class="h5">Image Avatar</h3>
+                <p>Add the <span class="text-highlight">avatar</span> class to <em>&lt;img&gt;</em> element.
+                    They are available in 4 different sizes. Use <span class="text-highlight">avatar-lg</span>, 
+                    <span class="text-highlight">avatar-md</span>, <span class="text-highlight">avatar-sm</span> 
+                    and <span class="text-highlight">avatar-xs</span> class to customize avatar to your size.<br>
+                    Remember to make your image responsive(use <span class="text-highlight">img-res</span> class).</p>
+                <div class="component__display flex-items">
+                    <img class="avatar avatar-lg img-res img-round" src="./assets/avatar-1.png" loading="lazy">
+                    <img class="avatar avatar-md img-res img-round" src="./assets/avatar-2.png" loading="lazy">
+                    <img class="avatar avatar-sm img-res img-round" src="./assets/avatar-3.png" loading="lazy">
+                    <img class="avatar avatar-xs img-res img-round" src="./assets/avatar-4.png" loading="lazy">
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2520img-res%2520img-round%2522%2520src%253D%2522.%252Fassets%252Favatar-1.png%2522%2520loading%253D%2522lazy%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2520img-res%2520img-round%2522%2520src%253D%2522.%252Fassets%252Favatar-2.png%2522%2520loading%253D%2522lazy%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520img-res%2520img-round%2522%2520src%253D%2522.%252Fassets%252Favatar-3.png%2522%2520loading%253D%2522lazy%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2520img-res%2520img-round%2522%2520src%253D%2522.%252Fassets%252Favatar-4.png%2522%2520loading%253D%2522lazy%2522%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Text Avatar</h3>
+                <p>For users who don't have profile pictures, you may use their initials for avatars. Add the <span class="
+                    text-highlight">avatar avatar-text</span> class to <em>&lt;div&gt;</em> element.</p>
+                <div class="component__display flex-items">
+                    <div class="avatar avatar-text avatar-lg" role="img" alt="avatar">AV</div>
+                    <div class="avatar avatar-text avatar-md" role="img" alt="avatar">AV</div>
+                    <div class="avatar avatar-text avatar-sm" role="img" alt="avatar">AV</div>
+                    <div class="avatar avatar-text avatar-xs" role="img" alt="avatar">AV</div>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-lg%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253EAV%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-md%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253EAV%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-sm%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253EAV%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-text%2520avatar-xs%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253EAV%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+            </section>
+
+            <hr>
+
             <section id="Button">
                 <div class="component-intro">
                     <h2 class="h3">Buttons</h2>
@@ -467,8 +517,8 @@
 
             <section id="Grids">
                 <div class="component-intro">
-                    <h2 class="h3">Grid Layout</h2>
-                    <p class="body-cp-lg text-light-weight">Use grids when you want to section and layout your content.</p>
+                    <h2 class="h3">Grids</h2>
+                    <p class="body-cp-lg text-light-weight">Use grid when you want to section and layout your content.</p>
                 </div>
 
                 <h3 class="h5">Side by Side (50:50) layout</h3>
