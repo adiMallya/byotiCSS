@@ -15,6 +15,15 @@
   z-index: var(--z-index-1);
   position: static;
 }
+.component__display .toast{
+  z-index: var(--z-index-1);
+}
+.component__display .toast:not(#toast-example-success){
+  position: relative;
+  top: 0;
+  right: 0;
+  display: block;
+}
 
 .code-snippet__display{
   box-sizing: border-box;

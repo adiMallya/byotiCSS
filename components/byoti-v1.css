@@ -9,6 +9,7 @@
 @import './cards.css';
 @import './avatar.css';
 @import './badge.css';
+@import './toast.css';
 
 :root{
 	/* 
