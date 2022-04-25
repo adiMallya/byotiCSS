@@ -7,6 +7,8 @@
 @import './navigation.css';
 @import './grid.css';
 @import './cards.css';
+@import './avatar.css';
+@import './badge.css';
 
 :root{
 	/* 
