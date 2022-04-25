@@ -1,0 +1,105 @@
+.text-container{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.text-container h1, .text-container h2, .text-container h3, .text-container h4, .text-container h5, .text-container h6,.text-container p{
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.text-container .product-title{
+  position: relative;
+  margin-right: 1.2rem;
+}
+.text-container-desc{
+  flex-grow: 1;
+}
+/* Horizontal cards */
+.card-horizontal{
+  box-sizing: border-box;
+  display: flex;
+  color: #282c3f;
+  border-radius: 0.3rem;
+}
+.card-horizontal .image-container{
+  width: 111px;
+  height: 148px;
+}
+.card-horizontal.default-container .image-container{
+ margin: 1rem 0 1rem 1rem; 
+}
+.card-horizontal .text-container{
+  width: calc(100% - 111px);
+}
+.card-horizontal.default-container .text-container{
+  margin-top: 4px;
+}
+/* Vertical cards */
+.card-vertical{
+  display: flex;
+  flex-direction: column;
+  max-width: 208px;
+  width: 100%;
+  position: relative;
+}
+.card-vertical.default-container .image-container{
+  margin: 1rem 1rem 0rem 1rem; 
+}
+
+.image-container.default-container .badge{
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+}
+.image-container .badge{
+  position: absolute;
+  top: 1rem;
+  left: 0rem;
+} 
+/* CTA in cards */
+.CTA-container .btn:not(:last-child){
+  margin-right: 0.625rem;
+}
+.CTA-container .btn{
+  margin-bottom: 0;
+}
+.CTA-container .link-text:not(:last-child){
+  margin-right: 0.625rem;
+}
+.like-btn{
+  position: absolute;
+  top: 0rem;
+  right: -1.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #adadad;
+}
+
+.overlay-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(234, 234, 236,0.6);
+}
+.overlay-container{
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.overlay-text .text-container{
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}

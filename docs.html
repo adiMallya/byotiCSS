@@ -327,6 +327,199 @@
 
             <hr>
 
+            <section id="Cards">
+                <div class="component-intro">
+                    <h2 class="h3">Cards</h2>
+                    <p class="body-cp-lg text-light-weight">Cards are flexible content containers.</p>
+                </div>
+
+                <h3 class="h5">Horizontal Card</h3>
+                <p>Card's image may have a margin or it can be full-bleed. By default card's images are full-bleed.
+                    If you want image to have margin, you can use default-container class.</p>
+                <div class="component__display display-flex-column">
+
+                    <div class="card-horizontal default-container shadow-box flex-items">
+                        <div class="image-container badge-container">
+                            <img src="./assets/product-1.jpg" alt="product-img" class="img-res card-img"
+                                loading="lazy">
+                            <span class="badge bg-secondary">New</span>
+                        </div>
+
+                        <div class="text-container">
+                            <div class="text-container-title">
+                                <h5 class="text-regular-weight">Skincare Kit</h5>
+                                <p class="body-cp-md">Women's skincare beauty collection <br>
+                                    <small class="body-cp-sm text-light-weight secondary-color">
+                                        Sold by: beyou</small>
+                                </p>
+                            </div>
+                            <div class="text-container-desc">
+                                <p>beyou's collection of skincare products includes serum, moisturizer,
+                                    oil control toner, face cleaner, and eye cream.</p>
+                            </div>
+                            <div class="CTA-container">
+                                <button class="btn btn--primary-text-icon"><span class="btn-icon">
+                                    <i class="fa-solid fa-shopping-cart"></i></span>Add to Cart</button>
+                                <button class="btn btn--secondary-outline">Move to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card with badge and image full-bleed -->
+                    <div class="card-horizontal shadow-box flex-items">
+                        <div class="image-container badge-container">
+                            <img src="./assets/product-1.jpg" alt="product-img" class="img-res card-img"
+                                loading="lazy">
+                            <span class="badge bg-secondary">New</span>
+                        </div>
+
+                        <div class="text-container">
+                            <div class="text-container-title">
+                                <h5 class="text-regular-weight">Skincare Kit</h5>
+                                <p class="body-cp-md">Women's skincare beauty collection <br>
+                                    <small class="body-cp-sm text-light-weight secondary-color">
+                                        Sold by: beyou</small>
+                                </p>
+                            </div>
+                            <div class="text-container-desc">
+                                <p>beyou's collection of skincare products includes serum, moisturizer,
+                                    oil control toner, face cleaner, and eye cream.</p>
+                            </div>
+                            <div class="CTA-container">
+                                <button class="btn btn--primary-text-icon"><span class="btn-icon">
+                                    <i class="fa-solid fa-shopping-cart"></i></span>Add to Cart</button>
+                                <button class="btn btn--secondary-outline">Move to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522card-horizontal%2520default-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fproduct-1.jpg%2522%2520alt%253D%2522product-img%2522%2520class%253D%2522img-res%2520card-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-secondary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522text-regular-weight%2522%253ESkincare%2520Kit%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522body-cp-md%2522%253EWomen%27s%2520skincare%2520beauty%2520collection%2520%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522body-cp-sm%2520text-light-weight%2520secondary-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sold%2520by%253A%2520beyou%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Ebeyou%27s%2520collection%2520of%2520skincare%2520products%2520includes%2520serum%252C%2520moisturizer%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520oil%2520control%2520toner%252C%2520face%2520cleaner%252C%2520and%2520eye%2520cream.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary-text-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Vertical Card</h3>
+                <p>These cards are available with same variations as in 
+                    horizontal. All cards have a like button.</p>
+                <div class="component__display">
+
+                    <div class="card-vertical default-container shadow-box flex-items">
+                        <div class="image-container badge-container">
+                            <img src="./assets/product-1.jpg" alt="product-img" class="img-res card-img"
+                                loading="lazy">
+                            <span class="badge bg-secondary">New</span>
+                        </div>
+
+                        <div class="text-container">
+                            <div class="text-container-title">
+                                <h6 class="text-regular-weight product-title">Skincare Kit
+                                    <button class="like-btn link-no-style"><span><i class="fa-solid 
+                                        fa-heart"></i></span></button>
+                                </h6>
+                            </div>
+                            <div class="text-container-desc display-flex-column">
+                               <p class="body-cp-md">Women's skincare beauty collection</p>
+                               <p class="text-regular-weight flex-grow">Rs. 999 <span class="text-light-weight">
+                                    <s>Rs. 1099</s></span></p>
+                            </div>
+                            <div class="CTA-container">
+                                <button class="btn flex-items btn--primary-text-icon"><span class="btn-icon">
+                                    <i class="fa-solid fa-shopping-cart"></i></span>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card with badge and image full-bleed -->
+                    <div class="card-vertical shadow-box flex-items">
+                        <div class="image-container badge-container">
+                            <img src="./assets/product-1.jpg" alt="product-img" class="img-res card-img"
+                                loading="lazy">
+                            <span class="badge bg-secondary">New</span>
+                        </div>
+
+                        <div class="text-container">
+                            <div class="text-container-title">
+                                <h6 class="text-regular-weight product-title">Skincare Kit
+                                    <button class="like-btn link-no-style"><span><i class="fa-solid 
+                                        fa-heart"></i></span></button>
+                                </h6>
+                            </div>
+                            <div class="text-container-desc">
+                               <p class="body-cp-md">Women's skincare beauty collection</p>
+                               <p class="text-regular-weight flex-grow">Rs. 999 <span class="text-light-weight">
+                                    <s>Rs. 1099</s></span></p>
+                            </div>
+                            <div class="CTA-container">
+                                <button class="btn flex-items btn--primary-text-icon"><span class="btn-icon">
+                                    <i class="fa-solid fa-shopping-cart"></i></span>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520default-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fproduct-1.jpg%2522%2520alt%253D%2522product-img%2522%2520class%253D%2522img-res%2520card-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-secondary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522text-regular-weight%2520product-title%2522%253ESkincare%2520Kit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522like-btn%2520link-no-style%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fa-solid%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-desc%2520display-flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522body-cp-md%2522%253EWomen%27s%2520skincare%2520beauty%2520collection%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-regular-weight%2520flex-grow%2522%253ERs.%2520999%2520%253Cspan%2520class%253D%2522text-light-weight%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.%25201099%253C%252Fs%253E%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520flex-items%2520btn--primary-text-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Card with Text Overlay</h3>
+                <p>Wrap your card content with the <span class="text-highlight">overlay-container</span> class.
+                    Add a <em>&lt;div&gt;</em> element and use <span class="text-highlight">overlay-text</span> class
+                    with it, to display the text to be overlayed on the card.</p>
+                <div class="component__display">
+                    <div class="card-vertical shadow-box">
+                        <div class="overlay-container">
+                            <div class="image-container badge-container">
+                                <img src="./assets/product-1.jpg" alt="product-img" class="img-res card-img"
+                                    loading="lazy">
+                                <span class="badge bg-secondary">New</span>
+                            </div>
+    
+                            <div class="text-container">
+                                <div class="text-container-title">
+                                    <h6 class="text-regular-weight product-title">Skincare Kit
+                                        <button class="like-btn link-no-style"><span><i class="fa-solid 
+                                            fa-heart"></i></span></button>
+                                    </h6>
+                                </div>
+                                <div class="text-container-desc">
+                                   <p class="body-cp-md">Women's skincare beauty collection</p>
+                                   <p class="text-regular-weight flex-grow">Rs. 999 <span class="text-light-weight">
+                                        <s>Rs. 1099</s></span></p>
+                                </div>
+                                <div class="CTA-container">
+                                    <button class="btn flex-items btn--primary-text-icon"><span class="btn-icon">
+                                        <i class="fa-solid fa-shopping-cart"></i></span>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="overlay-text">
+                                <div class="text-container body-cp-md">Out Of Stock</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520shadow-box%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fproduct-1.jpg%2522%2520alt%253D%2522product-img%2522%2520class%253D%2522img-res%2520card-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-secondary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522text-regular-weight%2520product-title%2522%253ESkincare%2520Kit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522like-btn%2520link-no-style%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fa-solid%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522body-cp-md%2522%253EWomen%27s%2520skincare%2520beauty%2520collection%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-regular-weight%2520flex-grow%2522%253ERs.%2520999%2520%253Cspan%2520class%253D%2522text-light-weight%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.%25201099%253C%252Fs%253E%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520flex-items%2520btn--primary-text-icon%2522%253E%253Cspan%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520body-cp-md%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+                    </code>
+                </div>
+            </section>
+
+            <hr>
+
             <section id="Image">
                 <div class="component-intro">
                     <h2 class="h3">Images</h2>
