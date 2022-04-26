@@ -94,6 +94,16 @@
         </div>
         
         <main>
+
+            <section id="Alerts">
+                <div class="component-intro">
+                    <h2 class="h3">Alerts</h2>
+                    <p class="body-cp-lg text-light-weight">Alerts</p>
+                </div>
+            </section>
+
+            <hr>
+
             <section id="Avatar">
                 <div class="component-intro">
                     <h2 class="h3">Avatars</h2>
@@ -992,7 +1002,7 @@
                         This component can also be used as a snackbar, to show message that need user action.</p>
                 </div>
 
-                <h3 class="h5">Examples</h3>
+                <h3 class="h5">Basic</h3>
                 <p>Add <span class="text-highlight">toast</span> class as wrapper to the message. Toast
                     has 3 themes, for error, success, warning.</p>
                 <div class="component__display">
@@ -1010,18 +1020,21 @@
                     </code>
                 </div>
 
-                <h3 class="h5">In Practise</h3>
+                <h3 class="h5">Live Example</h3>
+                <p>Place toasts with custom CSS. The <span class="text-highlight">top-right
+                    </span> is often used for notifications, as is the <span class="text-highlight">
+                        top-mid</span>. Just add the positioning style on the toast.</p>
                 <div class="component__display">
-                    <button class="btn btn--primary-solid show-toast-example-btn">Show Toast</button>
+                    <button class="btn btn--primary-solid show-toast-example-btn">Show live toast</button>
                 </div>
-                <div class="toast toast-success" id="toast-example-success">Saved! <button type="button" 
+                <div class="toast top-right toast-success" id="toast-example-success">Saved! <button type="button" 
                     class="btn-close" id="toast-example-success-btn"></button>
                 </div>
 
                 <div class="code-snippet__display">
                     <code>
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component__display%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520show-toast-example-btn%2522%253EShow%2520Toast%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%2520id%253D%2522toast-example-success%2522%253ESaved%21%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520class%253D%2522btn-close%2522%2520id%253D%2522toast-example-success-btn%2522%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component__display%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520show-toast-example-btn%2522%253EShow%2520live%2520toast%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520top-right%2520toast-success%2522%2520id%253D%2522toast-example-success%2522%253ESaved%21%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520class%253D%2522btn-close%2522%2520id%253D%2522toast-example-success-btn%2522%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
                         style="border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                         </iframe>

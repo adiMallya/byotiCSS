@@ -20,8 +20,6 @@
 }
 .component__display .toast:not(#toast-example-success){
   position: relative;
-  top: 0;
-  right: 0;
   display: block;
 }
 

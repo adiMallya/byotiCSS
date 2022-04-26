@@ -2,8 +2,6 @@
   width: fit-content;
   padding: 1rem 3rem 1rem 1rem;
   position: fixed;
-  top: 1rem;
-  right: 1rem;
   background-color: #fff;
   border-radius: 0.3rem;
   display: none;
@@ -43,3 +41,30 @@
 .btn-close:hover{
   opacity: 1;
 }
+
+.top-right {
+  top: 1rem;
+  right: 1rem;
+}
+.top-left {
+  top: 1rem;
+  left: 1rem;
+}
+.top-mid{
+  top: 1rem;
+  left: 50%;
+}
+
+.bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+}
+.bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+}
+.bottom-mid{
+  bottom: 1rem;
+  left: 50%;
+}
+
