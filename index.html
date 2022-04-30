@@ -33,7 +33,7 @@
             </a>
         </div>
     </header> -->
-    <nav id="my-navbar" class="navbar">
+    <nav id="my-navbar" class="navbar shadow-box">
         <div class="nav-section">
             <div id="my-toggler" class="navbar-toggler nav-section__items">
                 <div class="line1"></div>
@@ -87,19 +87,51 @@
     </nav>
 
     <main>
-        <!-- <img src="assets/logo.png" alt="byotiCSS" class="main-logo"/>
-        <p class="main__content">
-           A <u>lightweight</u>, <u>flexible </u>and <u>modern </u>CSS
-           framework
-        </p>
-        <div class="btn__container">
-            <a href="./pages/docs.html">
-                <button class="btn btn-primary">
-                    Get Started
-                </button>
-            </a>
-        </div> -->
+        <div class="spacer"></div>
+        <div class="grid-70-30-layout">
+            <div class="text-container">
+                <h1>Build byoti<i>ful</i>, responsive sites faster</h1>
+                <p class="body-cp-lg">Quickly design and customize
+                    mobile-first sites with a <u>flexible</u> and
+                    <u>modern</u> CSS framework. Save your time on design
+                    and concentrate more on logic.</p>
+                <div class="CTA-container">
+                    <a href="#install" class="btn btn--primary-outline">Installation</a>
+                    <a href="./docs.html" class="btn btn--primary-solid">Documentation</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="grid-50-50-layout" id="install">
+            <div class="text-container">
+                <h2>Installation</h2>
+                <p class="body-cp-rg">Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt;
+                    before all other stylesheets to load our CSS. You can then style your components
+                    by just adding class names to your elements.
+                    <br><br>
+                    To know more about the styled components, read the documentation.
+                </p>
+                <div class="CTA-container">
+                    <a href="./docs.html" class="btn btn--primary-solid">Go To Docs</a>
+                </div>
+            </div>
+            <div class="display-flex vertical-middle">
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fbyoti-css.netlify.app%252Fcomponents%252Fbyoti-v1.css%2522%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+                    </code>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <div class="spacer"></div>
 
     <a href="#" class="btn btn-float-action link-no-style"><i class="fa-solid fa-arrow-up"></i></a>
 
