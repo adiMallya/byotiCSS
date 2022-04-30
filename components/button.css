@@ -2,9 +2,10 @@
   display: inline-block;
   background-color: transparent;
   border: none;
-  margin: 1.25rem;
+  margin: 1.25rem 0;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
+  text-decoration: none;
   text-align: center;
   font-size: 1em;
   outline: none;
