@@ -82,13 +82,13 @@
                 <li class="nav-link__item"><a href="#Button">Button</a></li>
                 <li class="nav-link__item"><a href="#Cards">Cards</a></li>
                 <li class="nav-link__item"><a href="#Form">Form</a></li>
+                <li class="nav-link__item"><a href="#Grids">Grids</a></li>
                 <li class="nav-link__item"><a href="#Image">Image</a></li>
                 <li class="nav-link__item"><a href="#List">Lists</a></li>
                 <li class="nav-link__item"><a href="#Modal">Modal</a></li>
                 <li class="nav-link__item"><a href="#Navbar">Navbar</a></li>
-                <li class="nav-link__item"><a href="#Grids">Grids</a></li>
-                <li class="nav-link__item"><a href="#Typography">Typography</a></li>
                 <li class="nav-link__item"><a href="#Toast">Toast</a></li>
+                <li class="nav-link__item"><a href="#Typography">Typography</a></li>
             </ul>
             <div style="height: 1.5rem;"></div>
         </div>
@@ -586,6 +586,99 @@
 
             <hr>
 
+            <section id="Grids">
+                <div class="component-intro">
+                    <h2 class="h3">Grids</h2>
+                    <p class="body-cp-lg text-light-weight">Use grid when you want to section and layout your content.</p>
+                </div>
+
+                <h3 class="h5">Side by Side (50:50) layout</h3>
+                <p>Add <span class="text-highlight">grid-50-50-layout</span> class on wrapper <em>&lt;div&gt;</em>.</p>
+                <div class="component__display" style="display: block;">
+                    <div class="grid-50-50-layout">
+                        <div>
+                            <img src="./assets/sincerely-media.jpg" class="img-res" loading="lazy">
+                        </div>
+                        <div class="card-horizontal vertical-middle">
+                            <div class="text-container text-center">
+                                <h3>Journal Your Life</h3>
+                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, accusamus ducimus? Autem, magni possimus libero nobis sunt eligendi ipsa facilis officia quaerat alias eum aliquam tempora optio et inventore? Est!</p>
+                                <div class="CTA-container">
+                                    <a class="btn btn--secondary-outline">Keep Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-50-50-layout%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fsincerely-media.jpg%2522%2520class%253D%2522img-res%2522%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520vertical-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJournal%2520Your%2520Life%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522text-align%253A%2520justify%253B%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520%2520%2520%2520%2509consectetur%2520adipisicing%2520elit.%2520Illo%252C%2520accusamus%2520ducimus%253F%2520Autem%252C%2520magni%2520possimus%2520libero%2520nobis%2520sunt%2520eligendi%2520ipsa%2520facilis%2520officia%2520quaerat%2520alias%2520eum%2520aliquam%2520tempora%2520optio%2520et%2520inventore%253F%2520Est%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EKeep%2520Reading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Side by Side (70:30) layout</h3>
+                <p>Add <span class="text-highlight">grid-70-30-layout</span> class on wrapper <em>&lt;div&gt;</em>.</p>
+                <div class="component__display" style="display: block;">
+                    <div class="grid-70-30-layout">
+                        <div>
+                            <img src="./assets/sincerely-media.jpg" class="img-res" loading="lazy">
+                        </div>
+                        <div class="card-horizontal vertical-middle">
+                            <div class="text-container text-center">
+                                <h3>Journal Your Life</h3>
+                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, accusamus ducimus? Autem, magni possimus libero nobis sunt eligendi ipsa facilis officia quaerat alias eum aliquam tempora optio et inventore? Est!</p>
+                                <div class="CTA-container">
+                                    <a class="btn btn--secondary-outline">Keep Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-70-30-layout%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fsincerely-media.jpg%2522%2520class%253D%2522img-res%2522%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520vertical-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJournal%2520Your%2520Life%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522text-align%253A%2520justify%253B%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520%2520%2520%2520%2509consectetur%2520adipisicing%2520elit.%2520Illo%252C%2520accusamus%2520ducimus%253F%2520Autem%252C%2520magni%2520possimus%2520libero%2520nobis%2520sunt%2520eligendi%2520ipsa%2520facilis%2520officia%2520quaerat%2520alias%2520eum%2520aliquam%2520tempora%2520optio%2520et%2520inventore%253F%2520Est%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EKeep%2520Reading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h3 class="h5">Side by Side (30:70) layout</h3>
+                <p>Add <span class="text-highlight">grid-30-70-layout</span> class on wrapper <em>&lt;div&gt;</em>.</p>
+                <div class="component__display" style="display: block;">
+                    <div class="grid-30-70-layout">
+                        <div>
+                            <img src="./assets/sincerely-media.jpg" class="img-res" loading="lazy">
+                        </div>
+                        <div class="card-horizontal vertical-middle">
+                            <div class="text-container text-center">
+                                <h3>Journal Your Life</h3>
+                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, accusamus ducimus? Autem, magni possimus libero nobis sunt eligendi ipsa facilis officia quaerat alias eum aliquam tempora optio et inventore? Est!</p>
+                                <div class="CTA-container">
+                                    <a class="btn btn--secondary-outline">Keep Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-30-70-layout%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fsincerely-media.jpg%2522%2520class%253D%2522img-res%2522%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520vertical-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJournal%2520Your%2520Life%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522text-align%253A%2520justify%253B%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520%2520%2520%2520%2509consectetur%2520adipisicing%2520elit.%2520Illo%252C%2520accusamus%2520ducimus%253F%2520Autem%252C%2520magni%2520possimus%2520libero%2520nobis%2520sunt%2520eligendi%2520ipsa%2520facilis%2520officia%2520quaerat%2520alias%2520eum%2520aliquam%2520tempora%2520optio%2520et%2520inventore%253F%2520Est%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EKeep%2520Reading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+            </section>
+
+            <hr>
+
             <section id="Image">
                 <div class="component-intro">
                     <h2 class="h3">Images</h2>
@@ -849,90 +942,56 @@
 
             <hr>
 
-            <section id="Grids">
+            <section id="Toast">
                 <div class="component-intro">
-                    <h2 class="h3">Grids</h2>
-                    <p class="body-cp-lg text-light-weight">Use grid when you want to section and layout your content.</p>
+                    <h2 class="h3">Toast</h2>
+                    <p class="body-cp-lg text-light-weight">Toasts are used to show alert or information to users.
+                        This component can also be used as a snackbar, to show message that need user action.</p>
                 </div>
 
-                <h3 class="h5">Side by Side (50:50) layout</h3>
-                <p>Add <span class="text-highlight">grid-50-50-layout</span> class on wrapper <em>&lt;div&gt;</em>.</p>
-                <div class="component__display" style="display: block;">
-                    <div class="grid-50-50-layout">
-                        <div>
-                            <img src="./assets/sincerely-media.jpg" class="img-res" loading="lazy">
-                        </div>
-                        <div class="card-horizontal vertical-middle">
-                            <div class="text-container text-center">
-                                <h3>Journal Your Life</h3>
-                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, accusamus ducimus? Autem, magni possimus libero nobis sunt eligendi ipsa facilis officia quaerat alias eum aliquam tempora optio et inventore? Est!</p>
-                                <div class="CTA-container">
-                                    <a class="btn btn--secondary-outline">Keep Reading</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h3 class="h5">Basic</h3>
+                <p>Add <span class="text-highlight">toast</span> class as wrapper to the message. Toast
+                    has 3 themes, for error, success, warning.</p>
+                <div class="component__display">
+                    <div class="toast toast-success flex-items">Saved! <button type="button" class="btn-close"></button></div>
+                    <div class="toast toast-error flex-items">Not Saved! Try again later.<button type="button" class="btn-close"></button></div>
+                    <div class="toast toast-info flex-items">Saving to server... <button type="button" class="btn-close"></button></div>
                 </div>
                 <div class="code-snippet__display">
                     <code>
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-50-50-layout%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fsincerely-media.jpg%2522%2520class%253D%2522img-res%2522%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520vertical-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJournal%2520Your%2520Life%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522text-align%253A%2520justify%253B%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520%2520%2520%2520%2509consectetur%2520adipisicing%2520elit.%2520Illo%252C%2520accusamus%2520ducimus%253F%2520Autem%252C%2520magni%2520possimus%2520libero%2520nobis%2520sunt%2520eligendi%2520ipsa%2520facilis%2520officia%2520quaerat%2520alias%2520eum%2520aliquam%2520tempora%2520optio%2520et%2520inventore%253F%2520Est%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EKeep%2520Reading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                        style="border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                       </iframe>
-                    </code>
-                </div>
-
-                <h3 class="h5">Side by Side (70:30) layout</h3>
-                <p>Add <span class="text-highlight">grid-70-30-layout</span> class on wrapper <em>&lt;div&gt;</em>.</p>
-                <div class="component__display" style="display: block;">
-                    <div class="grid-70-30-layout">
-                        <div>
-                            <img src="./assets/sincerely-media.jpg" class="img-res" loading="lazy">
-                        </div>
-                        <div class="card-horizontal vertical-middle">
-                            <div class="text-container text-center">
-                                <h3>Journal Your Life</h3>
-                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, accusamus ducimus? Autem, magni possimus libero nobis sunt eligendi ipsa facilis officia quaerat alias eum aliquam tempora optio et inventore? Est!</p>
-                                <div class="CTA-container">
-                                    <a class="btn btn--secondary-outline">Keep Reading</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="code-snippet__display">
-                    <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-70-30-layout%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fsincerely-media.jpg%2522%2520class%253D%2522img-res%2522%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520vertical-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJournal%2520Your%2520Life%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522text-align%253A%2520justify%253B%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520%2520%2520%2520%2509consectetur%2520adipisicing%2520elit.%2520Illo%252C%2520accusamus%2520ducimus%253F%2520Autem%252C%2520magni%2520possimus%2520libero%2520nobis%2520sunt%2520eligendi%2520ipsa%2520facilis%2520officia%2520quaerat%2520alias%2520eum%2520aliquam%2520tempora%2520optio%2520et%2520inventore%253F%2520Est%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EKeep%2520Reading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253ESaved%21%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253ENot%2520Saved%21%2520Try%2520again%2520later.%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253ESaving%2520to%2520server...%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%253C%252Fdiv%253E"
                         style="border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </code>
                 </div>
 
-                <h3 class="h5">Side by Side (30:70) layout</h3>
-                <p>Add <span class="text-highlight">grid-30-70-layout</span> class on wrapper <em>&lt;div&gt;</em>.</p>
-                <div class="component__display" style="display: block;">
-                    <div class="grid-30-70-layout">
-                        <div>
-                            <img src="./assets/sincerely-media.jpg" class="img-res" loading="lazy">
-                        </div>
-                        <div class="card-horizontal vertical-middle">
-                            <div class="text-container text-center">
-                                <h3>Journal Your Life</h3>
-                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, accusamus ducimus? Autem, magni possimus libero nobis sunt eligendi ipsa facilis officia quaerat alias eum aliquam tempora optio et inventore? Est!</p>
-                                <div class="CTA-container">
-                                    <a class="btn btn--secondary-outline">Keep Reading</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h3 class="h5">Live Example</h3>
+                <p>Place toasts with custom CSS. The <span class="text-highlight">top-right
+                    </span> is often used for notifications, as is the <span class="text-highlight">
+                        top-mid</span>. Just add the positioning style on the toast.</p>
+                <div class="component__display">
+                    <button class="btn btn--primary-solid show-toast-example-btn">Show live toast</button>
                 </div>
+                <div class="toast top-right toast-success" id="toast-example-success">Saved! <button type="button" 
+                    class="btn-close" id="toast-example-success-btn"></button>
+                </div>
+
                 <div class="code-snippet__display">
                     <code>
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-30-70-layout%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fsincerely-media.jpg%2522%2520class%253D%2522img-res%2522%2520loading%253D%2522lazy%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520vertical-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EJournal%2520Your%2520Life%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522text-align%253A%2520justify%253B%2522%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520%2520%2520%2520%2509consectetur%2520adipisicing%2520elit.%2520Illo%252C%2520accusamus%2520ducimus%253F%2520Autem%252C%2520magni%2520possimus%2520libero%2520nobis%2520sunt%2520eligendi%2520ipsa%2520facilis%2520officia%2520quaerat%2520alias%2520eum%2520aliquam%2520tempora%2520optio%2520et%2520inventore%253F%2520Est%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--secondary-outline%2522%253EKeep%2520Reading%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component__display%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520show-toast-example-btn%2522%253EShow%2520live%2520toast%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520top-right%2520toast-success%2522%2520id%253D%2522toast-example-success%2522%253ESaved%21%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520class%253D%2522btn-close%2522%2520id%253D%2522toast-example-success-btn%2522%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+                <h3 class="h5">Javacript</h3>
+                <div class="code-snippet__display">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520btnShowToast%2520%253D%2520document.querySelector%28%27.show-toast-example-btn%27%29%253B%250Aconst%2520toast%2520%253D%2520document.getElementById%28%27toast-example-success%27%29%253B%250Aconst%2520btnCloseToast%2520%253D%2520document.getElementById%28%27toast-example-success-btn%27%29%253B%250A%250AbtnShowToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520toast.style.display%2520%253D%2520%27block%27%253B%250A%2520%2520timeIdForToast%2520%253D%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520toast.style.display%2520%253D%2520%27none%27%253B%250A%2520%2520%257D%252C%25202000%29%253B%250A%257D%29%253B%250A%250AbtnCloseToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520clearTimeout%28timeIdForToast%29%253B%250A%2520%2520toast.style.display%2520%253D%2520%27none%27%253B%250A%257D%29%253B"
                         style="border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                         </iframe>
@@ -1045,65 +1104,6 @@
                         style="border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                         </iframe>                      
-                    </code>
-                </div>
-            </section>
-
-            <hr>
-
-            <section id="Toast">
-                <div class="component-intro">
-                    <h2 class="h3">Toast</h2>
-                    <p class="body-cp-lg text-light-weight">Toasts are used to show alert or information to users.
-                        This component can also be used as a snackbar, to show message that need user action.</p>
-                </div>
-
-                <h3 class="h5">Basic</h3>
-                <p>Add <span class="text-highlight">toast</span> class as wrapper to the message. Toast
-                    has 3 themes, for error, success, warning.</p>
-                <div class="component__display">
-                    <div class="toast toast-success flex-items">Saved! <button type="button" class="btn-close"></button></div>
-                    <div class="toast toast-error flex-items">Not Saved! Try again later.<button type="button" class="btn-close"></button></div>
-                    <div class="toast toast-info flex-items">Saving to server... <button type="button" class="btn-close"></button></div>
-                </div>
-                <div class="code-snippet__display">
-                    <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253ESaved%21%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253ENot%2520Saved%21%2520Try%2520again%2520later.%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253ESaving%2520to%2520server...%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%253C%252Fdiv%253E"
-                        style="border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
-                </div>
-
-                <h3 class="h5">Live Example</h3>
-                <p>Place toasts with custom CSS. The <span class="text-highlight">top-right
-                    </span> is often used for notifications, as is the <span class="text-highlight">
-                        top-mid</span>. Just add the positioning style on the toast.</p>
-                <div class="component__display">
-                    <button class="btn btn--primary-solid show-toast-example-btn">Show live toast</button>
-                </div>
-                <div class="toast top-right toast-success" id="toast-example-success">Saved! <button type="button" 
-                    class="btn-close" id="toast-example-success-btn"></button>
-                </div>
-
-                <div class="code-snippet__display">
-                    <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component__display%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary-solid%2520show-toast-example-btn%2522%253EShow%2520live%2520toast%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520top-right%2520toast-success%2522%2520id%253D%2522toast-example-success%2522%253ESaved%21%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520class%253D%2522btn-close%2522%2520id%253D%2522toast-example-success-btn%2522%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                        style="border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
-                </div>
-                <h3 class="h5">Javacript</h3>
-                <div class="code-snippet__display">
-                    <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=material&wt=sharp&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520btnShowToast%2520%253D%2520document.querySelector%28%27.show-toast-example-btn%27%29%253B%250Aconst%2520toast%2520%253D%2520document.getElementById%28%27toast-example-success%27%29%253B%250Aconst%2520btnCloseToast%2520%253D%2520document.getElementById%28%27toast-example-success-btn%27%29%253B%250A%250AbtnShowToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520toast.style.display%2520%253D%2520%27block%27%253B%250A%2520%2520timeIdForToast%2520%253D%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520toast.style.display%2520%253D%2520%27none%27%253B%250A%2520%2520%257D%252C%25202000%29%253B%250A%257D%29%253B%250A%250AbtnCloseToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520clearTimeout%28timeIdForToast%29%253B%250A%2520%2520toast.style.display%2520%253D%2520%27none%27%253B%250A%257D%29%253B"
-                        style="border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
                     </code>
                 </div>
             </section>
