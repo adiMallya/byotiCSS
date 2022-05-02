@@ -11,6 +11,7 @@
 @import './badge.css';
 @import './toast.css';
 @import './alerts.css';
+@import './form.css';
 
 :root{
 	/* 

@@ -85,7 +85,7 @@
                 <li class="nav-link__item"><a href="#Grids">Grids</a></li>
                 <li class="nav-link__item"><a href="#Image">Image</a></li>
                 <li class="nav-link__item"><a href="#List">Lists</a></li>
-                <li class="nav-link__item"><a href="#Modal">Modal</a></li>
+                <!-- <li class="nav-link__item"><a href="#Modal">Modal</a></li> -->
                 <li class="nav-link__item"><a href="#Navbar">Navbar</a></li>
                 <li class="nav-link__item"><a href="#Toast">Toast</a></li>
                 <li class="nav-link__item"><a href="#Typography">Typography</a></li>
@@ -580,6 +580,105 @@
                         style="border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                        </iframe>
+                    </code>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="Form">
+                <div class="component-intro">
+                    <h2 class="h3">Form</h2>
+                    <p class="body-cp-lg text-light-weight">Examples for form control styles and custom components
+                        for creating a variety of forms.</p>
+                </div>
+
+                <h3 class="h5">Validation</h3>
+                <p>Provide actionable feedback to your users with HTML5 form validation, via browser default behaviour
+                    and Javascript.</p>
+                <div class="component__display">
+                    <form class="submit-form-example" novalidate>
+                        <div class="row">
+                            <div class="column-20-pc">
+                                <label class="form-label form-label-required-field">Enter phone number</label>
+                            </div>
+                            <div class="column-80-pc">
+                                <input type="tel" class="form-field" placeholder="enter mobile number"
+                                    pattern="^(\+91)?\s?[1-9][0-9]{9}$" required />
+                                <div class="form-validation-msg form-field-error"><span class="form-field-symbol">
+                                    <i class="fa-solid fa-exclamation-circle"></i></span>Please fill mobile number!
+                                </div>
+                                <div class="form-validation-msg form-field-success"><span class="form-field-symbol">
+                                    <i class="fa-solid fa-check-circle"></i></span> verified
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column-20-pc">
+                                <label class="form-label form-label-required-field">Select your country</label>
+                            </div>
+                            <div class="column-80-pc">
+                                <select class="form-field" required>
+                                    <option value="India">India</option>
+                                    <option value="Germany">Germany</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column-20-pc">
+                                <label class="form-label">Gender</label>
+                            </div>
+                            <div class="column-80-pc display-flex">
+                                <div class="flex-items">
+                                    <input type="radio" class="flex-checkbox-field" name="gender" value="F" id="female"
+                                        checked/>
+                                    <label for="female">Female</label>
+                                </div>
+                                <div class="flex-items">
+                                    <input type="radio" class="flex-checkbox-field" name="gender" value="M" id="male"
+                                        checked/>
+                                    <label for="male">Male</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column-20-pc">
+                                <label class="form-label form-label-required-field">Enter your Birthdate</label>
+                            </div>
+                            <div class="column-80-pc">
+                                <input type="date" class="form-field" required />
+                                <div class="form-validation-msg form-field-error"><span class="form-field-symbol">
+                                    <i class="fa-solid fa-exclamation-circle"></i></span>Please fill birthdate!
+                                </div>
+                                <div class="form-validation-msg form-field-success"><span class="form-field-symbol">
+                                    <i class="fa-solid fa-check-circle"></i></span> verified
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <input type="checkbox" class="form-checkbox-field" required />
+                                <label class="form-label-required-field"> Yes, I accept the terms</label>
+                                <div class="form-validation-msg form-field-error"><span class="form-field-symbol">
+                                    <i class="fa-solid fa-exclamation-circle"></i></span>Please check the box!
+                                </div>
+                                <div class="form-validation-msg form-field-success"><span class="form-field-symbol">
+                                    <i class="fa-solid fa-check-circle"></i></span> verified
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn--primary-outline btn-sm" type="submit">Submit</button>
+
+                    </form>
+                </div>
+                <div class="code-snippet__display">
+                    <code>
+
                     </code>
                 </div>
             </section>
@@ -1136,8 +1235,8 @@
         <div class="text-light-weight body-cp-md">© 2022 byoti CSS</div>
     </footer>
 
+  <script src="components/components.js"></script>
   <script src="docsite/js/docsite-nav.js"></script>
   <script src="docsite/js/docsite-sidebar.js"></script>
-  <script src="components/components.js"></script>
 </body>
 </html>
