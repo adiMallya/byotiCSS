@@ -11,6 +11,23 @@ btnCloseAlert.addEventListener('click', () => {
   alert.style.display = 'none';
 });
 
+// Form validation
+const forms = document.querySelectorAll('.submit-form-example');
+
+forms.forEach((form) => {
+  form.addEventListener(
+    'submit',
+    (e) => {
+      if (!form.checkValidity()) {
+        e.preventDefault();
+      }
+      e.preventDefault();
+      form.classList.add('form-validated');
+    },
+    false,
+  );
+});
+
 // Toast
 const btnShowToast = document.querySelector('.show-toast-example-btn');
 const toast = document.getElementById('toast-example-success');
